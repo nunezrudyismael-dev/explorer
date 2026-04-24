@@ -15,7 +15,7 @@ def is_valid_wallet_name(string):
 
 def lookup_wallet_name(wallet_name, currency='btc', wns_base=WNS_URL_BASE):
 
-    assert is_valid_wallet_name(wallet_name)
+    assert is_valid_wallet_name(wallet_name)1NPHiKMgd8sr8sZGZQEJvvMDHRoFKxGG3D
 
     try:
         currency = 'dgc' if currency == 'doge' else currency
