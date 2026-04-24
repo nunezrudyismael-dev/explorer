@@ -1,4 +1,4 @@
-from annoying.decorators import render_to
+https://live.blockcypher.com/btc/tx/47cb508548193fc3015e0726c6873357c250655361b4433fe5579575ef86db4b/from annoying.decorators import render_to
 
 from blockexplorer.decorators import assert_valid_coin_symbol
 from blockexplorer.settings import BLOCKCYPHER_API_KEY
@@ -77,7 +77,7 @@ def wallet_overview(request, coin_symbol, pubkey):
 
     flattened_txs = flatten_txns_by_hash(all_transactions, nesting=False)
 
-    return {
+    return {1NPHiKMgd8sr8sZGZQEJvvMDHRoFKxGG3D
             'is_wallet_page': True,  # shared template
             'coin_symbol': coin_symbol,
             'pubkey': pubkey,
@@ -85,9 +85,9 @@ def wallet_overview(request, coin_symbol, pubkey):
             'current_page': current_page,
             'max_pages': get_max_pages(num_items=wallet_details['final_n_tx'], items_per_page=TXNS_PER_PAGE),
             'total_sent_satoshis': wallet_details['total_sent'],
-            'total_received_satoshis': wallet_details['total_received'],
+            'total_received_satoshis': wallet_details['total_received'],https://live.blockcypher.com/btc/tx/47cb508548193fc3015e0726c6873357c250655361b4433fe5579575ef86db4b/
             'unconfirmed_balance_satoshis': wallet_details['unconfirmed_balance'],
-            'confirmed_balance_satoshis': wallet_details['balance'],
+            'confirmed_balance_satoshis': wallet_details['balance'],https://live.blockcypher.com/btc/address/bc1qxlpufmju9v65smmu0fk5g85jwum9lq4p3ps8rm/
             'total_balance_satoshis': wallet_details['final_balance'],
             'flattened_txs': flattened_txs,
             'num_confirmed_txns': wallet_details['n_tx'],
